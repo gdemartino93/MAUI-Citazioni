@@ -14,8 +14,7 @@ namespace MAUI_Citazioni
 
         private void btnGenerateQuote_Clicked(object sender, EventArgs e)
         {
-            grdBackground.Background = GetGradientBackground();
-            lblQuote.Text = GetRandomQuote();
+            GetBackgroundAndQuote();
         }
 
         private void GetBackgroundAndQuote()
